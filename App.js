@@ -8,6 +8,7 @@ const Stack = createStackNavigator()
 const Home = () => <Text>Home</Text>
 const Signup = () => <Text>Signup</Text>
 const linkingConfig = {
+	linking: true,
 	config: {
 		screens: {
 			home: "home",
